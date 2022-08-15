@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris GAME</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+   <header>
+<div class="info">
+    <span>instruction</span><br>
+    <p>Movement: <br><br>
+     "<<<" --- Move to the left <br>
+     ">>>" --- Move to the right <br>
+     "TL"  --- Turn left <br>
+     "TR"  --- Turn right <br>
+     <br><br>
+     ATTENTION! <br><br>
+     I apologize if there are some flaws in the game)
+     </p>
+</div>
+    </header>
+    <div id="div">
+      <canvas
+        id="maincanvas"
+        class="maincanvas"
+        width="240"
+        height="400"
+      ></canvas>
+      <canvas id="subcanvas" class="subcanvas" width="96" height="96"></canvas>
+      <label class="labelscore">Score:</label>
+      <label class="score" id="score">0</label>
+      <label class="labellevel">Level:</label>
+      <label class="level" id="level">1</label>
+      <label class="next">Next piece</label>
+      <label class="left" id="left"><<<</label>
+      <label class="right" id="right">>>></label>
+      <!-- <label class="down" id="down">DOWN</label> -->
+      <label class="rotate" id="rotate">TR</label>
+      <label class="rotatealt" id="rotatealt">TL</label>
+    </div>
+
+    <script src="./script.js">
+     
+    </script>
+  </body>
+</html>
